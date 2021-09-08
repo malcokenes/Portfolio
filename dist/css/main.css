@@ -211,7 +211,6 @@
 }
 
 .about__bio-image p {
-  font-size: 1.25rem;
   margin-bottom: 2rem;
 }
 
@@ -401,7 +400,7 @@
 .contact {
   height: 100%;
   padding-top: 40vh;
-  overflow: hidden;
+  overflow: scroll;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -449,7 +448,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  line-height: 1.6;
+  line-height: 1;
   border: 2px pink solid;
   border-radius: 10px;
 }
@@ -526,7 +525,7 @@ body {
   color: #fff;
   height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.4;
+  line-height: 1;
 }
 
 h1,
